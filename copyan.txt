@@ -1,0 +1,47 @@
+<div class="border-dieng">
+          <img src="assets/img/dieng.jpg" alt="" class="img-dieng">
+        </div>
+        <div class="text-about1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis sed necessitatibus id laboriosam beatae fugiat explicabo. Omnis dolore tempore veniam reiciendis at quo nesciunt deserunt eaque quaerat et exercitationem illo, aliquid error consequatur incidunt dolor nemo quam debitis commodi vero repellat ipsa maxime delectus. Fuga, dolores autem quo praesentium non nam, a harum dolor aliquid facere quod consectetur iste nisi beatae id explicabo ut consequuntur similique. Reiciendis fugit excepturi architecto reprehenderit, vitae officiis! Dolores cupiditate unde eaque vel impedit consectetur architecto sit similique sed natus magni voluptatibus, atque dicta qui at dolorem placeat totam aliquid velit quod cumque voluptatem.
+          </p>
+        </div>
+
+        
+.text-about1{
+  background-color: #e2e2e2;
+  color: #000000;
+  width: 40%;
+  height: 40%;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px 0px rgba(72, 71, 71, 0.75);
+  -webkit-box-shadow: 10px 10px 20px 0px rgba(72, 71, 71, 0.75);
+  -moz-box-shadow: 10px 10px 20px 0px rgba(72, 71, 71, 0.75);
+  transition: ease-in-out .2s;
+}
+
+.text-about1:hover{
+  transform: scale(1.1);
+  transition: ease-in-out .2s;
+}
+
+.border-dieng{
+  position: relative;
+  width: 30%;
+  height: 30%;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1rem solid white;
+  margin-left: 10px;
+  box-shadow: 10px 10px 30px 0px rgba(72, 71, 71, 0.75);
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(72, 71, 71, 0.75);
+  -moz-box-shadow: 10px 10px 30px 0px rgba(72, 71, 71, 0.75);
+}
+
+.img-dieng{
+  width: 100%;
+  height: 100%;
+}
