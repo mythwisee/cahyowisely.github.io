@@ -33,7 +33,7 @@ header {
   left: 0;
   width: 100%;
   padding: 1.5rem 9%;
-  background: #490000;
+  background: #350808;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,6 +72,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 
 .border-img {
   position: relative;
@@ -187,16 +188,26 @@ header {
   justify-content: center;
   align-items: center;
   border: 1.3rem outset white;
-  margin-left: 10px;
   box-shadow: 2px 1px 33px 0px rgba(208, 176, 176, 0.75);
   -webkit-box-shadow: 2px 1px 33px 0px rgba(208, 176, 176, 0.75);
   -moz-box-shadow: 2px 1px 33px 0px rgba(208, 176, 176, 0.75);
+  animation: spin 5s linear infinite;
 }
+
+@keyframes spin{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .img-about {
+  position: absolute;
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  position: absolute;
 }
 
 .isi-about{
