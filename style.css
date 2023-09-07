@@ -255,11 +255,12 @@ header {
   box-shadow: 1px 1px 7px 0px rgba(208, 176, 176, 0.75);
   -webkit-box-shadow: 2px 1px 7px 0px rgba(208, 176, 176, 0.75);
   -moz-box-shadow: 1px 1px 7px 0px rgba(208, 176, 176, 0.75);
+  transition: ease-in-out .2s;
 }
 
 .card:hover{
   background-color:#4900006c;
-  transition: ease-in-out .2s;
+  transform: scale(1.1);
   cursor: default;
   box-shadow: 2px 1px 23px 0px rgba(208, 176, 176, 0.75);
   -webkit-box-shadow: 2px 1px 23px 0px rgba(208, 176, 176, 0.75);
@@ -317,11 +318,9 @@ section.pengantar1 {
   margin-top: 5vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-.row-resume .resume-column {
-  flex: 1 1;
-}
+
 .resume-column img {
   width: 250px;
   margin-bottom: 3vh;
@@ -333,6 +332,50 @@ section.pengantar1 {
   transform: scale(1.1);
 }
 .resume-column p {
+  text-align: justify;
+  margin-top: 5vh;
+  width: 400px;
+}
+
+.plan{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.plan h2{
+  justify-content: center;
+  font-size: 2.7rem;
+  font-weight: 600;
+  text-shadow: 3px 1px 0 #ffffff6a;
+  border-bottom: 2px solid #fff;
+  padding: 2vh 0;
+}
+
+.container-content-plan{
+  margin-top : 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container-content-plan img{
+  width: 250px;
+  margin-bottom: 3vh;
+  border: 4px solid #fff;
+  transition: 0.5s;
+  cursor: pointer;  
+}
+
+.container-content-plan span{
+  color: yellow;
+  justify-content: center;
+  font-size: 2.7rem;
+  font-weight: 600;
+  text-shadow: 3px 1px 0 #ffffff6a;
+}
+
+.container-content-plan p{
   text-align: justify;
   margin-top: 5vh;
   width: 400px;
