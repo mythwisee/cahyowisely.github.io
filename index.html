@@ -1,201 +1,428 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="assets/img/favicon.ico">
-    <title>
-      Wisee.
-    </title>
 
-    <!-- link css -->
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/svg" href="/assets/img/logo.svg">
+    <title>I'm Wise</title>
 
-    <!-- link font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- link CDN CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- LINK CDN CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Link FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Jersey+15&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
 
-    <!-- link icon -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <!-- Link Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
 
-    <!-- link aos -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="" class="logo">Wisee.</a>
-
-      <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#resume">Resume</a>
-        <a href="#planning">Planning</a>
-      </nav>
-    </header>
-
-    <section class="home"  id="home">
-      <div class="home-content">
-        <div class="text-home" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-          <h4>Helloooo, It's me</h4>
-          <h1>Satriya Cahyo <span>Wisely</span></h1>
-          <p>
-            I study at
-            <a href="https://unnes.ac.id/" target="_blank" class="unnes-href"
-              >UNNES</a
-            >
-          </p>
-          <p>Informatics Engineering study program</p>
-          <div class="social-media">
-            <a href="https://instagram.com/wiselyyy6" target="_blank"
-              ><i class="bx bxl-instagram-alt"></i
-            ></a>
-            <a href="https://www.facebook.com/cahyowisely/" target="_blank"
-              ><i class="bx bxl-facebook-circle"></i
-            ></a>
-            <a
-              href="https://twitter.com/wiselyyy6?t=CTHxaRSibVnYJKn1tMELnQ&s=09"
-              target="_blank"
-              ><i class="bx bxl-twitter"></i
-            ></a>
-          </div>
-        </div>
-        <div class="border-img" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
-          <img src="assets/img/wesly_.jpg" alt="" class="home-img" />
+<body>
+    <!-- START NAVBAR -->
+    <section id="navbar">
+        <div id="navbar" style="background-color: #000000;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-12 col-md-12">
+                        <nav class="navbar navbar-expand-lg" style="background-color: #000000;">
+                            <div class="container-fluid">
+                                <img src="/assets/img/logo.svg" height="40" alt="Logo Wise" data-aos="fade-right" data-aos-duration="1500" class="nav-logo my-2 px-4">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse px-4" id="navbarSupportedContent" data-aos="fade-left" data-aos-duration="1500">
+                                    <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-light nav-text ms-3" aria-current="page"
+                                                href="#navbar">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-light nav-text ms-3" aria-current="page"
+                                                href="#about">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-light nav-text ms-3 mb-2 " aria-current="page"
+                                                href="#contact">Contact Me</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <!-- END NAVBAR -->
 
-    <section class="about" id="about">
-      <div class="about-content">
-        <div class="judul-about" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
-          <h2>ABOUT <span>ME</span></h2>
+    <!-- START HOME -->
+    <section id="home">
+        <div class="home pb-3" style="background-color: #000000;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-lg-12 col-md-12">
+                            <h1 class="text-center text-light nama-home" data-aos="fade-down-right" data-aos-duration="1200" style="text-shadow: 3px 3px 2px #7A7B79">I'M
+                                <span style="color: #7A7B79
+                                ;text-shadow: 3px 3px 2px rgba(225, 225, 225, 1);">W</span>ISE
+                            </h1>
+                            <div class="col">
+                                <img src="/assets/img/profile-home.png" class="img-profile bottom-0" data-aos="fade-up-right" data-aos-duration="1200" alt="Foto">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 offset-lg-1 col-md-12 col-sm-12 container-text-profile" data-aos="fade-up" data-aos-duration="1500">
+                                <h2 class="text-light" style="font-size: 39px; margin-bottom: 10px;">Hii!, I'm Satriya
+                                    Cahyo Wisely.</h2>
+                                <p class="text-white fs-5">Hey there, welcome, folks! I'm absolutely thrilled that
+                                    you've found your way here. This platform serves as the perfect space for me to
+                                    share my passions with you all. Feel free to take a leisurely tour and uncover more
+                                    about who I am. Sit back, relax, and enjoy the journey!</p>
+                                <a href="#about">
+                                    <button class="btn-learn-more" style="margin-bottom: 40px;margin-top: 10px;">Learn
+                                        More</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="container-img-about" data-aos="flip-down" data-aos-delay="100" data-aos-duration="1000">
-          <div class="border-img2">
-          </div>
-          <img src="assets/img/about.jpg" alt="" class="img-about" />
-        </div>
-        <div class="isi-about" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-          <p>
-            Hello, my name is Satriya Cahyo Wisely, usually called Wesly. I come
-            from the city of Wonosobo, precisely in Dieng village. My hobbies
-            are dancing and playing games. I am 18 years old and I am interested
-            in becoming a Web Developer.
-          </p>
-        </div>
-      </div>
     </section>
+    <!-- END HOME -->
 
-    <section class="education" id="education">
-      <div class="container-card" >
-        <h2 data-aos="flip-right" data-aos-delay="100" data-aos-duration="1000">My <span class="font-education-span">Education</span></h2>
-        <div class="card" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-          <div class="head-card">
-            <p><i class='bx bxs-calendar'></i> 2011-2017 - <span class="font-head-education">SD Negeri Dieng</span></p>
-            <div class="solid"></div>
-          </div>
-          <div class="body-card">
-            <p>For 6 years I studied several subjects such as Mathematics, Social Sciences, Natural Sciences, English and many more. I also won 2nd and 4th place in the creative dance competition.</p>
-          </div>
+    <!-- START ABOUT -->
+    <section id="about">
+        <div class="about" style="background-color: #ffffff;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-6 offset-3" data-aos="fade-up" data-aos-duration="1500">
+                            <h1 class="h1 text-center mt-5 judul-about">
+                                About
+                            </h1>
+                            <hr style="border: 1px solid;">
+                            <p class="fs-5 paragraf-about text-center mt-4" style="color:#000000; margin-bottom: 40px;">
+                                Hey there, you guys
+                                can call me, <span style="color: #7A7B79; font-weight: 600;">Wise!</span> I'm an
+                                Informatics Engineering student at Semarang State University. I'm super into web
+                                development, especially on the front-end, and I love crafting designs, from posters to
+                                presentations. With this website, I'll take you through my journey from the beginning of
+                                my career until now. So, let's dive in!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-1">
+                        <div class=" sidebar-left align-middle mb-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" style="margin-top: 75px;">
+                            <ul class="ul-sidebar">
+                                <li class="li-sidebar" style="margin-top: 20px;"><a href="https://www.instagram.com/wiselyyy6/" target="_blank" class="a-sidebar"><i
+                                            class="bi bi-instagram icon fs-3"></i></a>
+                                </li>
+                                <li class="li-sidebar"><a href="https://twitter.com/wiselyyy6" target="_blank" class="a-sidebar"><i
+                                            class="bi bi-twitter-x icon fs-3"></i></a></li>
+                                <li class="li-sidebar"><a href="https://www.facebook.com/cahyowisely" target="_blank" class="a-sidebar"><i
+                                            class="bi bi-facebook icon fs-3"></i></a></li>
+                                <li class="li-sidebar"><a href="https:/discordapp.com/users/348455314066112512" target="_blank" class="a-sidebar"><i
+                                            class="bi bi-discord icon fs-3"></i></a></li>
+                                <li class="li-sidebar"><a href="https://www.tiktok.com/@wiselyyy6" target="_blank" class="a-sidebar"><i
+                                            class="bi bi-tiktok icon fs-3"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-left align-middle" data-aos="fade-zoom-in" data-aos-duration="1200">
+                            <ul class="ul-sidebar">
+                                <li class="li-sidebar" style="margin-top: 20px;"><a href="#about" class="a-sidebar"><i
+                                            class="bi bi-file-person icon fs-3"></i></a>
+                                </li>
+                                <li class="li-sidebar"><a href="#educational" class="a-sidebar"><i
+                                            class="bi bi-rocket-takeoff icon fs-3"></i></a>
+                                </li>
+                                <li class="li-sidebar"><a href="#skill" class="a-sidebar"><i
+                                            class="bi bi-code-square icon fs-3"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-9 offset-1" id="educational">
+                        <div class="subheading-education" data-aos="fade-down" data-aos-duration="1500">
+                            <h2 class="text-center" style="font-weight: 600; color: #000000;">Journey <i
+                                class="bi bi-rocket-takeoff fs-3"></i></h2>
+                            <hr>
+                        </div>
+                        <div class="container">
+                            <div class="card card-education mt-4" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="1500" style=" border: 1px solid #000000;">
+                                <div class="card-header" style="background-color:#000000; color: #ffffff;">
+                                    Junior High School
+                                </div>
+                                <div class="card-body" style="background-color: #fff;">
+                                    <h5 class="card-title fw-semibold" style="color: #000000;">SMP Negeri 1 Mojotengah
+                                    </h5>
+                                    <div class="d-flex">
+                                        <p class="card-text" style="color: #000000; width: 80%;">In junior high school,
+                                            I learned to be more independent and responsible. From managing school
+                                            assignments to participating in various extracurricular activities, every
+                                            day provides opportunities to grow and develop as an individual. I learned
+                                            to face challenges, overcome obstacles, and pursue my dreams with strong
+                                            determination.</p>
+                                        <img src="/assets/img/smp.png" class="rounded me-3 p-2" height="120"
+                                            style="margin-left: auto; background-color: #C7C1B8;border: 1px solid #000000;"
+                                            alt="foto">
+                                    </div>
+                                    <a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/40632A5A-2DF5-E011-B360-6D21E8B16889" target="_blank" class="btn btn-learn-more" style="background-color: #C7C1B8;">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                            <div class="card card-education mt-4" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="1500" style=" border: 1px solid #000000;">
+                                <div class="card-header" style="background-color:#000000; color: #ffffff;">
+                                    Senior High School
+                                </div>
+                                <div class="card-body" style="background-color: #fff;">
+                                    <h5 class="card-title fw-semibold" style="color: #000000;">SMK Negeri 1 Wonosobo
+                                    </h5>
+                                    <div class="d-flex">
+                                        <p class="card-text" style="color: #000000; width: 80%;">My experience at
+                                            vocational school majoring in software engineering has become an important
+                                            foundation in my educational journey. This sparked my interest in
+                                            technology, motivating me to choose an informatics engineering study program
+                                            at university. This decision not only illustrates my determination to deepen
+                                            my knowledge and skills in programming and software development, but also
+                                            opens up opportunities to grow as a skilled professional in the dynamic
+                                            technology industry.</p>
+                                        <img src="/assets/img/smk.png" class="rounded me-3 p-2" height="120"
+                                            style="margin-left: auto; background-color: #C7C1B8;border: 1px solid #000000;"
+                                            alt="foto">
+                                    </div>
+                                    <a href="https://smkn1-wnb.sch.id/" target="_blank" class="btn btn-learn-more" style="background-color: #C7C1B8;">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                            <div class="card card-education mt-4" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="1500" style=" border: 1px solid #000000;">
+                                <div class="card-header" style="background-color:#000000; color: #ffffff;">
+                                    Senior High School
+                                </div>
+                                <div class="card-body" style="background-color: #fff;">
+                                    <h5 class="card-title fw-semibold" style="color: #000000;">Universitas Negeri
+                                        Semarang
+                                    </h5>
+                                    <div class="d-flex">
+                                        <p class="card-text" style="color: #000000; width: 80%;">Now, my journey at
+                                            Semarang State University was an enriching one, where I learned many new
+                                            things and experienced significant personal growth. Through interactions
+                                            with lecturers and fellow classmates, I gained deep insight into informatics
+                                            techniques and was involved in various activities that broadened my
+                                            understanding of the outside world. Every day at this university is an
+                                            opportunity to grow and develop, and I am grateful for all the opportunities
+                                            and experiences I have had.</p>
+                                        <img src="/assets/img/univ.png" class="rounded me-3 p-2" height="120"
+                                            style="margin-left: auto; background-color: #C7C1B8;border: 1px solid #000000;"
+                                            alt="foto">
+                                    </div>
+                                    <a href="https://unnes.ac.id/" target="_blank" class="btn btn-learn-more" style="background-color: #C7C1B8;">Learn
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <div class="col-9 offset-2">
+                            <div class="subheading-skill" id="skill" data-aos="fade-down" data-aos-duration="1500">
+                                <h2 class="text-center" style="font-weight: 600; color: #000000;">Skill <i
+                                    class="bi bi-code-slash fs-3"></i></h2>
+                                <hr>
+                            </div>
+                            <div class="container">
+                                <div class="row mt-4">
+                                    <div class="col-4" data-aos="fade-right" data-aos-duration="1500">
+                                        <div class="card card-skill" style="width: 18rem;">
+                                            <img src="/assets/img/design.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body" style="height: 200px;">
+                                                <h5 class="card-title fw-semibold">Design</h5>
+                                                <p class="card-text">My design skills create engaging user experiences,
+                                                    with a focus on typography, color, and efficient layout.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4" data-aos="fade-up" data-aos-duration="1500">
+                                        <div class="card card-skill" style="width: 18rem;">
+                                            <img src="/assets/img/front-end.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body" style="height: 200px;">
+                                                <h5 class="card-title fw-semibold">Front-End Developer</h5>
+                                                <p class="card-text">My web front-end skills produce responsive and
+                                                    dynamic user interfaces using HTML and CSS.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4" data-aos="fade-left" data-aos-duration="1500">
+                                        <div class="card card-skill" style="width: 18rem;">
+                                            <img src="/assets/img/socmed.png" class="card-img-top" alt="...">
+                                            <div class="card-body" style="height: 200px;">
+                                                <h5 class="card-title fw-semibold">Social Media</h5>
+                                                <p class="card-text">
+                                                    As a social media admin, I manage content, interact with users, and
+                                                    implement growth strategies to increase engagement.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
-          <div class="head-card">
-            <p><i class='bx bxs-calendar'></i> 2017-2020 - <span class="font-head-education">SMP Negeri 1 Mojotengah</span></p>
-            <div class="solid"></div>
-          </div>
-          <div class="body-card">
-            <p>In middle school, I started to get to know more friends. I also took part in the Dancing FLS2N and won 3rd place.</p>
-          </div>
-        </div>
-        <div class="card"  data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-          <div class="head-card">
-            <p><i class='bx bxs-calendar'></i> 2020-2023 - <span class="font-head-education">SMK Negeri 1 Wonosobo</span></p>
-            <div class="solid"></div>
-          </div>
-          <div class="body-card">
-            <p>I majored in Software Engineering. Grade XI, I started to be interested in coding and until now. I take part in musical traditional and dancing extracurriculars.</p>
-          </div>
-        </div>
-        <div class="card"  data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
-          <div class="head-card">
-            <p><i class='bx bxs-calendar'></i> 2023 - <span class="font-head-education">Universitas Negeri Semarang</span></p>
-            <div class="solid"></div>
-          </div>
-          <div class="body-card">
-            <p>I was accepted into the Informatics Engineering Study Program, Department of Computer Science, Semarang State University.</p>
-          </div>
-        </div>
-      </div>
     </section>
+    <!-- END ABOUT -->
 
-    <section class="pengantar1" id="resume">
-      <!--  -->
-      <div class="pengantar1-content" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-        <div class="judul-pengantar1">
-          <h2>PENGANTAR TEKNOLOGI INFORMATIKA : "PERTEMUAN 1"</h2>
+    <!-- START CONTACT ME -->
+    <section id="contact">
+        <div class="contact pb-5" style="background-color: #7A7B79;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" data-aos="fade-down" data-aos-duration="1200">
+                        <h1 class="h1 text-center m-4 judul-about" style="color: #ffffff;">
+                            Contact
+                        </h1>
+                        <hr>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                            <div class="card card-contact m-4" style="width: 90%;box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.62);
+                            ">
+                                <div class="card-body p-5">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label">Your Name</label>
+                                            <input type="text" class="form-control" id="name"
+                                                placeholder="Enter full name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="email"
+                                                aria-describedby="emailHelp" placeholder="Your email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message">Message</label>
+                                            <textarea class="form-control" placeholder="Leave a message here"
+                                                id="message" style="height: 117px"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 offset-1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                            <div class="d-flex justify-content-center align-items-center text-center"
+                                style="height: 100%; flex-direction: column;">
+                                <h2 class="fw-bold mb-3" style="color: #ffffff;">Call Me</h2>
+                                <p class="fs-4" style="color: #ffffff;">I'm always eager to hear from you, whether it's
+                                    to discuss a potential collaboration, share ideas, or simply say hello.</p>
+                                <ul class="ul" style="color: #ffffff; list-style-type: none;">
+                                    <li class="fs-5"><b><i class="bi bi-envelope me-3"></i>Email</b>:
+                                        wessewess1@gmail.com</li>
+                                    <li class="fs-5"><b><i class="bi bi-telephone me-3"></i>Phone</b>: (+62)
+                                        895-3653-91032</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      <!--  -->
-      <div class="row-resume">
-        <div class="resume-column">
-          <img src="assets/img/P1 - 1.jpeg" alt="">
-        </div>
-        <div class="resume-column">
-          <p>Pada pertemuan pertama mata kuliah Pengantar Teknologi Informatika yang diampu oleh Bapak Jumanto, kami berkenalan satu sama lain dan juga membahas tentang rencana pembelajaran semester awal. Kami juga membahas tentang materi dasar Pengantar Teknologi Informatika. Pak Jumanto juga meminta untuk memindahkan jadwal pembelajaran minggu depan yang awalnya pukul 13:00 WIB menjadi 15:30 WIB.</p>
-        </div>
-      </div>
-      <!--  -->
-    </div>
-    <!--  -->
-      <!--  -->
-      <div class="pengantar1-content" style="margin-top: 2vh;" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
-        <div class="judul-pengantar1">
-          <h2>PENGANTAR TEKNOLOGI INFORMATIKA : "PERTEMUAN 2"</h2>
-        </div>
-      <!--  -->
-      <div class="row-resume">
-        <div class="resume-column">
-          <p>Pada pertemuan ke-2 kami membahas tentang dasar Konsep Komputer. Komputer mempunyai 3 komponen penting yaitu CPU, Memory,dan I/O. Jika dilihat dari prosesnya komputer memiliki 3 bagian, yaitu input -> proses -> output. Komputer juga memiliki 3 elemen penting, yaitu hardware, software, dan brainware.</p>
-        </div>
-        <div class="resume-column">
-          <img src="assets/img/P2.jpeg  " alt="">
-        </div>
-      </div>
-      <!--  -->
-    </div>
-    <!--  -->
     </section>
+    <!-- END CONTACT ME -->
 
-    <section class="planning" id="planning">
-      <div class="plan">
-        <h2>KAKAS TEKNOLOGI YANG AKAN SAYA KUASAI</h2>
-          <div class="container-content-plan" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-            <img src="assets/img/HTML.jpg" alt="">
-            <p><span> HTML </span> Saya ingin menguasai HTML dalam semester ini, selain dikarenakan tugas membuat blog, saya juga bercita-cita menjadi seorang WEB Developer. Dengan belajar HTML saya bisa terus meningkatkan skill saya pada bidang pembuatan WEB. Biasanya saya belajar dari artikel, youtube dan juga teman saya yang sudah lebih paham. Saya dapat cepat memahami HTML.</p>
-          </div>
-
-          <div class="container-content-plan" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
-            <p><span> CSS & JS </span>Dengan mempelajari CSS & JS, saya bisa membuat WEB menjadi lebih menarik dan keren. CSS dan JS juga bisa digunakan untuk membuat tampilan yang berbeda untuk berbagai perangkat. Nantinya saya juga bisa menjadi WEB Designer atau Front-End Developer. Belajar CSS dan JS sulit dikarenakan CSS dan JS sangat luas.</p>
-            <img src="assets/img/css js-removebg-preview.jpg" alt="" >
-          </div>
-
-          <div class="container-content-plan" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
-            <img src="assets/img/cpp.jpg" alt="">
-            <p><span> C++ </span> Bahasa Pemrograman yang ingin saya kuasai semester 1 ini karena menjadi dasar mata kuliah Algoritma dan Pemrograman. C++ dapat mengasah logika kita dalam berpikir dan menciptakan suatu program.  Saya sudah mempelajarinya dari saya SMK karena menjadi bagian dari ujian LSP.</p>
-          </div>
-      </div>
+    <!-- START FOOTER -->
+    <section id="footer">
+        <div class="footer" style="background-color: #000000; padding-top: 60px;">
+            <div class=" container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <hr style="border-color: #fff;">
+                        <img src="/assets/img/Wise Logo.png" class="rounded" width="300" data-aos="zoom-out" data-aos-duration="1000" alt="Foto Logo">
+                        <hr style="border-color: #fff;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center mt-3 mb-3">
+                        <ul class="ul-footer d-flex align-items-center list-unstyled" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                            <li class="li-footer me-3"><a href="https://www.instagram.com/wiselyyy6/" target="_blank" class="a-footer">
+                                    <div class="icon-circle"><i class="bi bi-instagram fs-3"></i></div>
+                                </a></li>
+                            <li class="li-footer me-3"><a href="https://twitter.com/wiselyyy6" target="_blank" class="a-footer">
+                                    <div class="icon-circle"><i class="bi bi-twitter-x fs-3"></i></div>
+                                </a></li>
+                            <li class="li-footer me-3"><a href="https://www.facebook.com/cahyowisely" target="_blank" class="a-footer">
+                                    <div class="icon-circle"><i class="bi bi-facebook fs-3"></i></div>
+                                </a></li>
+                            <li class="li-footer me-3"><a href="https:/discordapp.com/users/348455314066112512" target="_blank" class="a-footer">
+                                    <div class="icon-circle"><i class="bi bi-discord fs-3"></i></div>
+                                </a></li>
+                            <li class="li-footer"><a href="https://www.tiktok.com/@wiselyyy6" target="_blank" class="a-footer">
+                                    <div class="icon-circle"><i class="bi bi-tiktok fs-3"></i></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr style="border-color: #fff;">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                            <li class="list-inline-item mx-4"><a href="#navbar" class="nav-link-footer">Home</a></li>
+                            <li class="list-inline-item icon-divider mx-4"><i class="bi bi-gem"></i></li>
+                            <li class="list-inline-item mx-4"><a href="#about" class="nav-link-footer">About</a></li>
+                            <li class="list-inline-item icon-divider mx-4"><i class="bi bi-gem"></i></li>
+                            <li class="list-inline-item"><a href="#contact" class="nav-link-footer">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright" style="background-color: #00000071;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mt-5">
+                        <p class="copyright-text">Copyright © Wise 2024 All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- END FOOTER -->
 
-    <!-- link js aos -->
+    <!-- Link CDN JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Link CDN JS AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
-  </body>
+</body>
+
 </html>
